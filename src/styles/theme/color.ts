@@ -3,7 +3,9 @@ const bgColors = {
 }
 
 const textColors = {
-  mainGrey: '#3a3a3a',
+  mainGrey: 'rgb(58, 58, 58)',
+  subGrey: 'rgba(58, 58, 58, 0.7)',
+  descGrey: 'rgba(58, 58, 58, 0.8)',
 }
 
 export { bgColors, textColors }

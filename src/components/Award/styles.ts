@@ -7,7 +7,7 @@ export const AwardItem = styled.div`
   align-items: center;
   justify-content: center;
   &:last-child {
-    margin-left: 12px;
+    transform: translateX(60px);
   }
 `
 

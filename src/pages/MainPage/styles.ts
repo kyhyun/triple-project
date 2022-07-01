@@ -1,6 +1,18 @@
-import styled from 'styled-components'
+import styled, { keyframes } from 'styled-components'
 
 import { bgColors, textColors } from 'styles/theme/color'
+
+const fadeIn = keyframes`
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+`
 
 export const MainPageContainer = styled.section`
   position: relative;
@@ -22,7 +34,9 @@ export const AsideContentsWrapper = styled.div`
   height: 327px;
 `
 
-export const BannerContainer = styled.div``
+export const BannerContainer = styled.div`
+  animation: ${fadeIn} 700ms 100ms both;
+`
 
 export const BannerSubDescription = styled.p`
   position: relative;
@@ -39,12 +53,14 @@ export const TripleContentBanner = styled.img`
 
 export const MatricContents = styled.div`
   margin: 20px 0 20px;
+  animation: ${fadeIn} 700ms 200ms both;
 `
 
 export const AwardContents = styled.div`
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  animation: ${fadeIn} 700ms 300ms both;
 
   div:first-child {
     margin-right: 8px;

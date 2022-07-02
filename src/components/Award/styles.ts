@@ -7,13 +7,13 @@ export const AwardItem = styled.div`
   align-items: center;
   justify-content: center;
   &:last-child {
-    transform: translateX(60px);
+    transform: translateX(40px);
   }
 `
 
 export const AwardImage = styled.img`
-  width: 46px;
-  height: 46px;
+  width: 60px;
+  height: 60px;
 `
 
 export const AwardDescription = styled.p`

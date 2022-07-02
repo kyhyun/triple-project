@@ -28,9 +28,9 @@ function MainPage() {
       </BannerContainer>
       <AsideContentsWrapper>
         <MatricContents>
-          <Matrics highLightText="700만 명" subText="의 여행자" />
-          <Matrics highLightText="100만 개" subText="의 여행 리뷰" />
-          <Matrics highLightText="470만 개" subText="의 여행 일정" />
+          <Matrics figure={700} unit="만 명" modifier="의 여행자" />
+          <Matrics figure={100} unit="만 개" modifier="의 여행 리뷰" />
+          <Matrics figure={470} unit="만 개" modifier="의 여행 일정" />
         </MatricContents>
         <AwardContents>
           <Award

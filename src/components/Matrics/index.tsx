@@ -6,14 +6,9 @@ import {
 } from './styles'
 
 import useCounter from 'hooks/useCounter'
+import { Imatrics } from 'types/types'
 
-interface Props {
-  figure: number
-  unit: string
-  modifier: string
-}
-
-function Matrics({ figure, unit, modifier }: Props) {
+function Matrics({ figure, unit, modifier }: Imatrics) {
   const count = useCounter(figure, 2000)
   return (
     <MatricsContainer>

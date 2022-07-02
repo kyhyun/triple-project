@@ -1,18 +1,13 @@
 import { AwardItem, AwardImage, AwardDescription } from './styles'
 
-interface Props {
-  imgUrl: string
-  imgAltInfo: string
-  topDescription: string
-  bottomDescription: string
-}
+import { Iaward } from 'types/types'
 
 function Award({
   imgUrl,
   imgAltInfo,
   topDescription,
   bottomDescription,
-}: Props) {
+}: Iaward) {
   return (
     <AwardItem>
       <AwardImage src={imgUrl} alt={imgAltInfo} />

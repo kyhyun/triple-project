@@ -11,6 +11,7 @@ export const MatricsItem = styled.div`
   justify-content: flex-start;
   align-items: center;
 `
+
 export const MatricsHighLight = styled.strong`
   font-size: 36px;
   font-weight: 700;

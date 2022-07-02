@@ -23,7 +23,6 @@ export const MainPageContainer = styled.section`
   height: 552px;
   margin: 0 auto;
   background-color: ${bgColors.white};
-  border: 1px solid black;
 `
 
 export const AsideContentsWrapper = styled.div`
